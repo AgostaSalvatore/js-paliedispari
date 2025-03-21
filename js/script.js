@@ -30,8 +30,7 @@ console.log('Hai scelto: ' + choise);
 //Stampo il numero dell'utente
 console.log('Il tuo numero è: ' + userNum);
 
+//funzione per generare un numero random che verra' assegnato al computer
 function randomNumber(min, max){
-    let min = 1;
-    let max = 5;
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
