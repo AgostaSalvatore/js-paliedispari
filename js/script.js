@@ -43,3 +43,13 @@ console.log('Il numero del computer è: ' + computerNum);
 function sum(computerNum, userNum){
     return computerNum + userNum;
 }
+
+if(sum(randomNumber, userNum) % 2 == 0 && choise == 'pari'){
+    console.log('Hai vinto!');
+}
+else if(sum(randomNumber, userNum) % 2 != 0 && choise == 'dispari'){
+    console.log('Hai vinto!');
+}
+else{
+    console.log('Hai perso!');
+}
