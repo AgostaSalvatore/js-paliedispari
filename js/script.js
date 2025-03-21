@@ -41,6 +41,7 @@ console.log('Il numero del computer è: ' + computerNum);
 
 //funzione per sommare i due numeri
 let sum = userNum + computerNum;
+console.log('La somma dei due numeri è: ' + sum);
 
 //funzione per sommare i due numeri
 function summed(sum){
@@ -48,7 +49,7 @@ function summed(sum){
         return 'Hai vinto';
     }
     else if(sum % 2 != 0 && choise == 'dispari'){
-        return 'Hai vinto';
+        return 'Hai vinto'; 
     }
     else{
         return 'Hai perso';
