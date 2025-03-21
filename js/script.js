@@ -7,6 +7,12 @@ let worldReverse ='';
 //iniziallizzo la funzione per capire se la parola è palindroma
 function palindroma(world){
     worldReverse = world.split('').reverse().join('');
+    if(world == worldReverse){
+        return 'La parola è palindroma';
+    }
+    else{
+        return 'La parola non è palindroma';
+    }
 }
 
 console.log(palindroma(world));
