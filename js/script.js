@@ -40,18 +40,21 @@ let computerNum = randomNumber(1,5);
 console.log('Il numero del computer è: ' + computerNum);
 
 //funzione per sommare i due numeri
-function sum(computerNum, userNum){
-    if(sum(randomNumber, userNum) % 2 == 0 && choise === 'pari'){
-        return 'Hai vinto!';
+let sum = userNum + computerNum;
+
+//funzione per sommare i due numeri
+function summed(sum){
+    if(sum % 2 == 0 && choise == 'pari'){
+        return 'Hai vinto';
     }
-    else if(sum(randomNumber, userNum) % 2 != 0 && choise === 'dispari'){
-        return 'Hai vinto!';
+    else if(sum % 2 != 0 && choise == 'dispari'){
+        return 'Hai vinto';
     }
     else{
         return 'Hai perso';
     }
 }
 
-console.log(sum(computerNum, userNum));
+console.log(summed(sum));
 
  
