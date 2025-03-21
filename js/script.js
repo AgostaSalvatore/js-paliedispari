@@ -41,15 +41,17 @@ console.log('Il numero del computer è: ' + computerNum);
 
 //funzione per sommare i due numeri
 function sum(computerNum, userNum){
-    return computerNum + userNum;
+    if(sum(randomNumber, userNum) % 2 == 0 && choise === 'pari'){
+        return 'Hai vinto!';
+    }
+    else if(sum(randomNumber, userNum) % 2 != 0 && choise === 'dispari'){
+        return 'Hai vinto!';
+    }
+    else{
+        return 'Hai perso';
+    }
 }
 
-if(sum(randomNumber, userNum) % 2 == 0 && choise == 'pari'){
-    console.log('Hai vinto!');
-}
-else if(sum(randomNumber, userNum) % 2 != 0 && choise == 'dispari'){
-    console.log('Hai vinto!');
-}
-else{
-    console.log('Hai perso!');
-} 
+console.log(sum(computerNum, userNum));
+
+ 
