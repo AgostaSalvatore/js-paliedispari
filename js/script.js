@@ -34,3 +34,7 @@ console.log('Il tuo numero è: ' + userNum);
 function randomNumber(min, max){
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+//Stampo il numero generato dal computer
+let computerNum = randomNumber(1,5);
+console.log('Il numero del computer è: ' + computerNum);
