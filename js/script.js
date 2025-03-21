@@ -38,3 +38,8 @@ function randomNumber(min, max){
 //Stampo il numero generato dal computer
 let computerNum = randomNumber(1,5);
 console.log('Il numero del computer è: ' + computerNum);
+
+//funzione per sommare i due numeri
+function sum(computerNum, userNum){
+    return computerNum + userNum;
+}
