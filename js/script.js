@@ -52,4 +52,4 @@ else if(sum(randomNumber, userNum) % 2 != 0 && choise == 'dispari'){
 }
 else{
     console.log('Hai perso!');
-}
+} 
