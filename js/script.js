@@ -15,12 +15,23 @@ function palindroma(world){
     }
 }
 
+//Risultato
 console.log(palindroma(world));
 
 
-
-
-
-
-
 console.log('----------Pari-Dispari----------');
+
+// Chiedere all'utente di scegliere tra pari e dispari
+let choise = prompt('Scegli tra pari e dispari');
+// Chiedere all'utente di inserire un numero tra 1 e 5
+let userNum = parseInt(prompt('Inserisci un numero tra 1 e 5'));
+//Stampo la scelta dell'utente
+console.log('Hai scelto: ' + choise);
+//Stampo il numero dell'utente
+console.log('Il tuo numero è: ' + userNum);
+
+function randomNumber(min, max){
+    let min = 1;
+    let max = 5;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
